@@ -1,5 +1,5 @@
 import React from 'react';
-import { TodoList } from '../../components/TodoList';
+import { TodoList } from 'src/components/TodoList';
 import styles from './Home.module.scss';
 
 export const HomePage: React.FC = () => (

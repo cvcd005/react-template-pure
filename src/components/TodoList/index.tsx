@@ -1,8 +1,8 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { TodoForm } from '../TodoForm';
-import { TodoItem } from '../TodoItem';
-import { TodoItemType } from '../../types';
-import { getTodoList, setTodoList } from '../../api';
+import { TodoForm } from 'src/components/TodoForm';
+import { TodoItem } from 'src/components/TodoItem';
+import { TodoItemType } from 'src/types';
+import { getTodoList, setTodoList } from 'src/api';
 
 export const TodoList: React.FC = () => {
   const [list, setList] = useState<TodoItemType[]>([]);

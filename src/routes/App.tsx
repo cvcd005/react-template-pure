@@ -1,5 +1,5 @@
 import { Route, HashRouter } from 'react-router-dom';
-import { HomePage } from '../page/Home';
+import { HomePage } from 'src/page/Home';
 
 const App = () => (
   <HashRouter>

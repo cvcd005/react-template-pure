@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { TodoItemType } from '../../types';
+import { TodoItemType } from 'src/types';
 import styles from './TodoItem.module.scss';
 
 interface IProps extends TodoItemType {
