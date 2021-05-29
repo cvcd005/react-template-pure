@@ -1,0 +1,23 @@
+.form__input {
+  width: 70%;
+  height: 25px;
+  margin-right: 20px;
+  border: 1px solid #2c3e50;
+  padding: 0 10px;
+  border-radius: 8px;
+  outline: none;
+
+  &:focus {
+    outline: none;
+    border: 1px solid red;
+  }
+}
+
+.form__btn {
+  background: #2c3e50;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 8px;
+}
